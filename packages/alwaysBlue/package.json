@@ -28,6 +28,6 @@
   },
   "publishConfig": {
     "access": "public",
-    "registry": "https://npm.pkg.github.com/santima10"
+    "registry": "https://npm.pkg.github.com/"
   }
 }
