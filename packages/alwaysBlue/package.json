@@ -1,6 +1,6 @@
 {
   "name": "@santima10/always-blue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "build/src/index.js",
   "typings": "build/src/index.d.ts",
   "license": "MIT",
@@ -19,13 +19,12 @@
   "engines": {
     "node": "10"
   },
-  "dependencies": {},
   "devDependencies": {
-    "typescript": "^3.6.3",
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.5",
     "jest": "^24.9.0",
     "ts-jest": "^24.1.0",
-    "@types/jest": "^24.0.18",
-    "@types/node": "^12.7.5"
+    "typescript": "^3.6.3"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
