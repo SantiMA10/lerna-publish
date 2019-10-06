@@ -1,7 +1,7 @@
 version: 1
 update_configs:
   - package_manager: "javascript"
-    directory: "/packages/*"
+    directory: "/packages"
     update_schedule: "weekly"
     automerged_updates:
       - match:
