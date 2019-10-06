@@ -1,7 +1,7 @@
 {
   "name": "@santima10/always-blue",
   "description": "always blue, always blue",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "main": "build/src/index.js",
   "typings": "build/src/index.d.ts",
   "license": "MIT",
