@@ -10,9 +10,5 @@
   "scripts": {
     "build": "lerna run build",
     "test": "lerna run test"
-  },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com/santima10"
   }
 }
