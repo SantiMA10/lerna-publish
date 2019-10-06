@@ -9,6 +9,7 @@
   },
   "scripts": {
     "build": "lerna run build",
-    "test": "lerna run test"
+    "test": "lerna run test",
+    "prepublish": "yarn test"
   }
 }

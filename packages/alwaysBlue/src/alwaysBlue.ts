@@ -1,1 +1,1 @@
-export const alwaysBlue = () => "Blue";
+export const alwaysBlue = () => "blue";
