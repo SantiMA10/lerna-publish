@@ -1,0 +1,39 @@
+{
+  "name": "@santima10/may-the-force",
+  "version": "1.1.1",
+  "description": "May the force be with you",
+  "author": "Santiago Martín Agra <santiagomartinagra@gmail.com>",
+  "homepage": "https://github.com/SantiMA10/lerna-publish#readme",
+  "license": "MIT",
+  "main": "build/src/index.js",
+  "typings": "build/src/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SantiMA10/lerna-publish.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SantiMA10/lerna-publish/issues"
+  },
+  "scripts": {
+    "compile": "tsc",
+    "compile:types": "tsc --declaration true",
+    "build": "yarn compile && yarn compile:types",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "publish:registry": "yarn publish"
+  },
+  "engines": {
+    "node": "10"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.5",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.3"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/"
+  }
+}
