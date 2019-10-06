@@ -1,7 +1,21 @@
 version: 1
 update_configs:
   - package_manager: "javascript"
-    directory: "/packages"
+    directory: "/"
+    update_schedule: "weekly"
+    automerged_updates:
+      - match:
+          dependency_type: "all"
+          update_type: "all"
+  - package_manager: "javascript"
+    directory: "/packages/alwaysBlue"
+    update_schedule: "weekly"
+    automerged_updates:
+      - match:
+          dependency_type: "all"
+          update_type: "all"
+  - package_manager: "javascript"
+    directory: "/packages/mayTheForce"
     update_schedule: "weekly"
     automerged_updates:
       - match:
