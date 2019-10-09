@@ -1,0 +1,43 @@
+{
+  "name": "app",
+  "version": "1.2.0",
+  "description": "> TODO: description",
+  "author": "Santiago Martín Agra <santiagomartinagra@gmail.com>",
+  "homepage": "https://github.com/SantiMA10/lerna-publish#readme",
+  "license": "MIT",
+  "main": "build/index.js",
+  "scripts": {
+    "compile": "tsc",
+    "build": "yarn compile",
+    "start:watch": "nodemon --watch 'src' -e ts --exec 'ts-node' --files ./src/index.ts",
+    "start": "node build/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "predeploy": "yarn build",
+    "deploy": "gcloud app deploy"
+  },
+  "engines": {
+    "node": "10"
+  },
+  "devDependencies": {
+    "@types/hapi__hapi": "^18.2.5",
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.5",
+    "jest": "^24.9.0",
+    "nodemon": "^1.19.3",
+    "ts-jest": "^24.1.0",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SantiMA10/lerna-publish.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SantiMA10/lerna-publish/issues"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^18.4.0",
+    "@santima10/always-blue": "^1.2.0"
+  }
+}
