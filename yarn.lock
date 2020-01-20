@@ -212,13 +212,13 @@
     unique-filename "^1.1.1"
     which "^1.3.1"
 
-"@hapi/accept@4.x.x":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@hapi/accept/-/accept-4.0.0.tgz#ec54acc3304185091e98cd6fdfa7a815e5aaaf31"
-  integrity sha512-1wfaS05XyraV4FG8GVcsATorTokAO3i3rAIzffxmqEGUct87tKkIvwtcNDfpEz6AhN77R8uPU0FO5DD3AJutHg==
+"@hapi/accept@5.x.x":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@hapi/accept/-/accept-5.0.0.tgz#b0e06dd57351ff0724172af6e5d22a4e74d99ead"
+  integrity sha512-LMz1AkD9kzmbXWNw5s+aQg0Yp9WQDXOSD0G4ke3cJ/S5H+qyUIy224/hVng1L8zn9H1cEpofyd3gh+XCrwGvYg==
   dependencies:
-    "@hapi/boom" "8.x.x"
-    "@hapi/hoek" "8.x.x"
+    "@hapi/boom" "9.x.x"
+    "@hapi/hoek" "9.x.x"
 
 "@hapi/address@4.x.x", "@hapi/address@^4.0.0":
   version "4.0.0"
@@ -227,12 +227,12 @@
   dependencies:
     "@hapi/hoek" "^9.0.0"
 
-"@hapi/ammo@4.x.x":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@hapi/ammo/-/ammo-4.0.0.tgz#932c135693397320a9e0a5e46e28238417d7d7e8"
-  integrity sha512-rMYIKrnpQWuE+fD3fj9svcKNkl5EEfkMkfn0lAJgQ/q1phfn86VwPsPsVzGS7V+p5OzdRKUrll/FQGI7ze4q7w==
+"@hapi/ammo@5.x.x":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@hapi/ammo/-/ammo-5.0.0.tgz#016f0c55b1fee360cfdb891db58e66602189149d"
+  integrity sha512-N8JHIBG0Azlg8kUmy2KGqgWPc9HyGZmAQNwR7fdLdDM4YqMJM9eMi6eCZ9kElpo5S4pK81U6S7Q3s+TSjaBDgg==
   dependencies:
-    "@hapi/hoek" "8.x.x"
+    "@hapi/hoek" "9.x.x"
 
 "@hapi/b64@5.x.x":
   version "5.0.0"
@@ -240,13 +240,6 @@
   integrity sha512-ngu0tSEmrezoiIaNGG6rRvKOUkUuDdf4XTPnONHGYfSGRmDqPZX5oJL6HAdKTo1UQHECbdB4OzhWrfgVppjHUw==
   dependencies:
     "@hapi/hoek" "9.x.x"
-
-"@hapi/boom@8.x.x":
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/@hapi/boom/-/boom-8.0.1.tgz#13f1f2f2a3abfb0787c79e35e238c8aff6aa1661"
-  integrity sha512-SnBM2GzEYEA6AGFKXBqNLWXR3uNBui0bkmklYXX1gYtevVhDTy2uakwkSauxvIWMtlANGRhzChYg95If3FWCwA==
-  dependencies:
-    "@hapi/hoek" "8.x.x"
 
 "@hapi/boom@9.x.x":
   version "9.0.0"
@@ -320,12 +313,12 @@
   integrity sha512-V87P8fv7PI0LH7LiVi8Lkf3x+KCO7pQozXRssAHNXXL9L1K+uyu4XypLXwxqVDKgyQai6qj3/KteNlrqDx4W5A==
 
 "@hapi/hapi@^19.0.3":
-  version "19.0.3"
-  resolved "https://registry.yarnpkg.com/@hapi/hapi/-/hapi-19.0.3.tgz#bf902630f2d526655350d257be192f3365d79c80"
-  integrity sha512-XfIM8fKWXYu6BXdbqvtGNIrAKqg3WQpdDlvEnzmxYe3xe4cciy7RC98+tLMivp3W9SKEyh17SyM+IgjrjDudJw==
+  version "19.0.5"
+  resolved "https://registry.yarnpkg.com/@hapi/hapi/-/hapi-19.0.5.tgz#10b641ff0b370583a0a807358d267dad5990d0e2"
+  integrity sha512-dJYuPxn5YfWLSim9GfdiTh4zobJ7wIuCYyK/I1DRcZhk+VvxDCUTcMALBLwL2TDWL5lMQvlBZiQU7MvOZ6FGSA==
   dependencies:
-    "@hapi/accept" "4.x.x"
-    "@hapi/ammo" "4.x.x"
+    "@hapi/accept" "5.x.x"
+    "@hapi/ammo" "5.x.x"
     "@hapi/boom" "9.x.x"
     "@hapi/bounce" "2.x.x"
     "@hapi/call" "7.x.x"
