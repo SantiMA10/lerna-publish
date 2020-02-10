@@ -447,9 +447,9 @@
   integrity sha512-V87P8fv7PI0LH7LiVi8Lkf3x+KCO7pQozXRssAHNXXL9L1K+uyu4XypLXwxqVDKgyQai6qj3/KteNlrqDx4W5A==
 
 "@hapi/hapi@^19.0.3":
-  version "19.0.5"
-  resolved "https://registry.yarnpkg.com/@hapi/hapi/-/hapi-19.0.5.tgz#10b641ff0b370583a0a807358d267dad5990d0e2"
-  integrity sha512-dJYuPxn5YfWLSim9GfdiTh4zobJ7wIuCYyK/I1DRcZhk+VvxDCUTcMALBLwL2TDWL5lMQvlBZiQU7MvOZ6FGSA==
+  version "19.1.0"
+  resolved "https://registry.yarnpkg.com/@hapi/hapi/-/hapi-19.1.0.tgz#ba2d200f0178597a96e77f68868c15ed4c3899f3"
+  integrity sha512-L99f4OxO1GPbeyd3AN8jKffHJRgiYNOOc+8/dc9hWiNwp8EEbE4xs2uvWtIhigt3PeJytwQixLxm+3srzXuzbg==
   dependencies:
     "@hapi/accept" "5.x.x"
     "@hapi/ammo" "5.x.x"
