@@ -37,7 +37,7 @@
     "url": "https://github.com/SantiMA10/lerna-publish/issues"
   },
   "dependencies": {
-    "@hapi/hapi": "^19.0.3",
+    "@hapi/hapi": "^20.0.0",
     "@santima10/always-blue": "^1.2.0"
   }
 }
