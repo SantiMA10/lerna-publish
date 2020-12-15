@@ -1752,9 +1752,9 @@
   integrity sha512-AWK70LgRsRWL1TNw+aT0IlS56E0pobvFdr/en0K8XazyK4Ey6T/jXhQqv/iQ6FJAAU+somMzgmt9fWq2TaaOkA==
 
 "@types/hapi__hapi@^20.0.1":
-  version "20.0.2"
-  resolved "https://registry.yarnpkg.com/@types/hapi__hapi/-/hapi__hapi-20.0.2.tgz#e7571451f7fb75e87ab3873ec91b92f92cd55fff"
-  integrity sha512-7FwFoaxSCtHXbHbDdArSeVABFOfMLgVkOvOUtWrqUBzw639B2rq9OHv3kOVDHY0bOao0f6ubMzUxio8WQ9QZfQ==
+  version "20.0.3"
+  resolved "https://registry.yarnpkg.com/@types/hapi__hapi/-/hapi__hapi-20.0.3.tgz#b6a6bd81bb76e95e964b0096462666f4fc540d51"
+  integrity sha512-Jv3J5UhcNWD06NUAoFCyllojIBfXleoL9o5jX7tmuAuFX5uc5n3ynZBb7gewE0iGdlut1qG9KO2UHcOTR4wNzQ==
   dependencies:
     "@hapi/boom" "^9.0.0"
     "@hapi/iron" "^6.0.0"
