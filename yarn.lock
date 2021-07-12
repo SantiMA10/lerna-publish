@@ -2022,9 +2022,9 @@
   integrity sha512-AWK70LgRsRWL1TNw+aT0IlS56E0pobvFdr/en0K8XazyK4Ey6T/jXhQqv/iQ6FJAAU+somMzgmt9fWq2TaaOkA==
 
 "@types/hapi__hapi@^20.0.1":
-  version "20.0.8"
-  resolved "https://registry.yarnpkg.com/@types/hapi__hapi/-/hapi__hapi-20.0.8.tgz#83faa2be02d7192eabc1536e802461a9df6bff2a"
-  integrity sha512-NNslrYq2XQwm4uOqNcSWKpYtaeMr4DkQdrFzSB7p9rKB9ppJLh3mgP2wak9vBZl7/Cnhhb+JVBcUZCOUcW0JPA==
+  version "20.0.9"
+  resolved "https://registry.yarnpkg.com/@types/hapi__hapi/-/hapi__hapi-20.0.9.tgz#9d570846c96268266a14c970c13aeeaccfc8e172"
+  integrity sha512-fGpKScknCKZityRXdZgpCLGbm41R1ppFgnKHerfZlqOOlCX/jI129S6ghgBqkqCE8m9A0CIu1h7Ch04lD9KOoA==
   dependencies:
     "@hapi/boom" "^9.0.0"
     "@hapi/iron" "^6.0.0"
